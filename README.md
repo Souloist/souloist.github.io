@@ -1,3 +1,3 @@
-# Souloist.github.io
+# Richard-Shen
 
 Website will contain projects
