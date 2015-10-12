@@ -21,3 +21,52 @@ input[type="text"] {
 	bottom: 0;
 	font: 15px Courier New;
 }
+#lines-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#content {
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    width: 360px;
+    margin: -120px auto 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.note {
+    line-height: 1.8em;
+    margin-bottom: 24px;
+}
+
+.note a {
+    color: #ff4141;
+    text-decoration: none;
+}
+
+.note a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.icons a {
+    color: #444;
+    padding: 0 8px 4px;
+}
+
+.icons a:hover {
+    color: #ff4141;
+}
