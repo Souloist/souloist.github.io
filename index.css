@@ -1,0 +1,17 @@
+		.dot {
+			width: 25px;
+			height: 25px;
+			background-color: black;
+			position: absolute;
+			font: 15px Courier New;
+		}
+		input[type="text"] {
+			background: transparent;
+			border: none;
+			font: 15px Courier New;
+		}
+		#coords {
+			position:fixed;
+			bottom: 0;
+			font: 15px Courier New;
+		}
