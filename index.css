@@ -4,6 +4,7 @@ html, body {
     color: #000;
     font-family: Inconsolata, monospace;
 }
+
 .dot {
 	width: 25px;
 	height: 25px;
@@ -21,6 +22,7 @@ input[type="text"] {
 	bottom: 0;
 	font: 15px Courier New;
 }
+
 #lines-container {
     position: fixed;
     top: 0;
@@ -30,7 +32,7 @@ input[type="text"] {
 }
 
 #content {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(66, 66, 66, 0.5);
     position: fixed;
     z-index: 1;
     top: 50%;
@@ -46,15 +48,17 @@ input[type="text"] {
 .note {
     line-height: 1.8em;
     margin-bottom: 24px;
+    color: #999;
 }
 
 .note a {
-    color: #ff4141;
+    color: #999999;
     text-decoration: none;
 }
 
 .note a:hover {
     text-decoration: underline;
+    color: #00ccff;
 }
 
 .icons {
@@ -63,10 +67,63 @@ input[type="text"] {
 }
 
 .icons a {
-    color: #444;
+    color: #999;
     padding: 0 8px 4px;
 }
 
 .icons a:hover {
-    color: #ff4141;
+    color: #00ccff;
 }
+.icon {
+	text-decoration: none;
+	position: relative;
+}
+
+	.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.icon.circle {
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		border: 0;
+		border-radius: 100%;
+		display: inline-block;
+		font-size: 1.25em;
+		height: 2.25em;
+		left: 0;
+		line-height: 2.25em;
+		text-align: center;
+		text-decoration: none;
+		top: 0;
+		width: 2.25em;
+	}
+
+		.icon.circle:hover {
+			top: -0.2em;
+			text-decoration: underline;
+		}
+
+	.icon.featured {
+		cursor: default;
+		display: block;
+		margin: 0 0 1.5em 0;
+		opacity: 0.35;
+		text-align: center;
+	}
+
+		.icon.featured:before {
+			font-size: 5em;
+			line-height: 1em;
+		}
+
+	.icon > .label {
+		display: none;
+	}

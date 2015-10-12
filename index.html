@@ -12,14 +12,24 @@
 
             <div id="content">
                 <header>
-                    <h1>WORK IN PROGRESS. In the meantime, enjoy the colors.</h1>
+                    <h1>
+						<script type="text/javascript">
+   							var message = "WORK IN PROGRESS!";
+   							var colors = new Array("#000000","#ffbf00"); // yellow, black
+   							for (var i = 0; i < message.length; i++)
+      							document.write("<span style=\"color:" + colors[(i % colors.length)] + ";\">" + message[i] + "</span>");
+						</script>
+					</h1>
                 </header>
-            <div>
-        <div>
-        <div class="icons">
-                    <a class="instagram" href="http://www.instagram.com/souloist92" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a class="github" href="http://www.github.com/souloist" target="_blank"><i class="fa fa-github"></i></a>
-                    <a class="linkedin" href="http://www.linkedin.com/in/richardzshen/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <div class="note">Hey! My name is Richard Shen and i'm a graduate student at NYU. This website is still..under contruction.. BUT in the meantime, enjoy the colors! </div>
+				<div class="note">Resume:<a class="icon circle fa-cloud-download" href="files/Richard_Resume.pdf" target="_blank"></a></div>
+        		<div class="icons">
+                    <a class="icon circle fa-instagram" href="http://www.instagram.com/souloist92" target="_blank"></a>
+                    <a class="icon circle fa-github" href="http://www.github.com/souloist" target="_blank"></a>
+                    <a class="icon circle fa-linkedin" href="http://www.linkedin.com/in/richardzshen/" target="_blank"></a>
+        		</div>
+
+        	</div>
         </div>
 
 		<!-- Third party -->
