@@ -3,6 +3,9 @@
 html, body {
     color: #000;
     font-family: Inconsolata, monospace;
+/*    background: url("pics/tech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; maybe leter*/ 
 }
 
 .dot {
@@ -28,6 +31,7 @@ header h1 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 36px;
+
 }
 #lines-container {
     position: fixed;
@@ -38,7 +42,7 @@ header h1 {
 }
 
 #content {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.5);
     position: fixed;
     z-index: 1;
     top: 50%;
@@ -65,7 +69,6 @@ header h1 {
 }
 
 .note a:hover {
-    text-decoration: underline;
     color: #00ccff;
 }
 
@@ -117,7 +120,7 @@ header h1 {
 
 		.icon.circle:hover {
 			top: -0.2em;
-			text-decoration: underline;
+
 		}
 
 	.icon.featured {
