@@ -2,4 +2,6 @@
 ==
 Website will contain projects
 
-**Currently in the process of updating to new layout **
+~~**Currently in the process of updating to new layout**~~ - done
+
+**Currently in the process of creating a blog**
